@@ -30,7 +30,14 @@ const Navbar = () => {
     >
       <div className="container">
         <Logo>
-          <img src="/images/logo.png" alt="logo" />
+          <img
+            src="/images/axzel-logo-01.svg"
+            alt="logo"
+            style={{
+              transform: scrollPosition > 200 ? ' scale(1.4)' : 'scale(1)',
+              transition: '0.6s',
+            }}
+          />
         </Logo>
 
         <div className="toggle">

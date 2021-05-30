@@ -62,15 +62,14 @@ const Wrapper = styled.div`
     }
 
     .imgBox {
-      height: 45rem;
-      width: 100%;
       margin-bottom: 2rem;
 
       div {
-        height: 100%;
-        width: 100%;
+        height: 20vw;
+        width: 20vw;
 
         img {
+          /* height: auto; */
           object-fit: cover;
         }
       }
@@ -169,5 +168,6 @@ export async function getStaticProps({ params }) {
     props: {
       post: items[0],
     },
+    revalidate: 60,
   };
 }

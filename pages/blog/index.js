@@ -30,7 +30,10 @@ const index = ({ posts }) => {
                   </div>
 
                   <h2>{post.fields.title}</h2>
-                  <h4>{post.fields.date}</h4>
+                  <h4>
+                    {post.fields.date.substring(0, 10)} : By{' '}
+                    <span>{post.fields.author}</span>
+                  </h4>
                   <p>{post.fields.blog.content[0].content[0].value}</p>
 
                   <Link href={`/blog/${post.fields.link}`}>Read More</Link>
@@ -54,7 +57,8 @@ export async function getStaticProps() {
   return {
     props: {
       posts: data.items,
-    }
+    },
+    revalidate: 60,
   };
 }
 
@@ -111,7 +115,7 @@ const Post = styled.div`
   }
 
   h4 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   p {

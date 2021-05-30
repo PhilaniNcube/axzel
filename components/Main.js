@@ -123,7 +123,7 @@ const Posts = styled.div`
     margin-bottom: 2rem;
 
     img {
-      width: 100%;
+      width: 50%;
       height: auto;
       object-fit: cover;
       margin-bottom: 1.8rem;
