@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 import styled from 'styled-components';
@@ -5,6 +6,16 @@ import styled from 'styled-components';
 const privacy = () => {
   return (
     <Wrapper>
+      <Head>
+        <title>Axzel | Privacy</title>
+        <meta name="description" content="Data Governance made practical" />
+
+        <meta
+          name="keywords"
+          content="data governance, data privacy, data protection"
+        />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <div className="container">
         <h1>Privacy Policy</h1>
         <p>Last updated: April 26, 2021</p>

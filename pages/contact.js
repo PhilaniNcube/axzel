@@ -8,7 +8,7 @@ const contact = () => {
   return (
     <Fragment>
       <Head>
-        <title>Contact</title>
+        <title>Axzel | Contact</title>
       </Head>
 
       <Wrapper>

@@ -11,12 +11,17 @@ export default function Home({ posts }) {
   return (
     <Fragment>
       <Head>
-        <title>Axzel</title>
+        <title>Axzel | Home</title>
+        <meta name="description" content="Data Governance made practical" />
+
         <meta
-          name="description"
-          content="Manage your companies data processes"
+          name="keywords"
+          content="data governance, data privacy, data protection"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="google-site-verification"
+          content="CTRQXlVBaGCZOZOEm6n49mXMcaLtK_Bl2PEK__-qIzo"
+        />
         <meta name="robots" content="index, follow" />
       </Head>
       <HomeWrapper>

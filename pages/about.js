@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -7,6 +8,16 @@ import styled from 'styled-components';
 const about = () => {
   return (
     <Wrapper>
+      <Head>
+        <title>Axzel | About</title>
+        <meta name="description" content="Data Governance made practical" />
+
+        <meta
+          name="keywords"
+          content="data governance, data privacy, data protection"
+        />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <Header>
         <div className="container">
           <h1>About Us</h1>

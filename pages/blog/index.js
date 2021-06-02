@@ -4,11 +4,25 @@ import Image from 'next/image';
 import styled from 'styled-components';
 import client from '../../lib/contentful';
 import Link from 'next/link';
+import Head from 'next/head';
 
 const index = ({ posts }) => {
   console.log(posts);
   return (
     <Wrapper>
+      <Head>
+        <title>Axzel | Blog</title>
+        <meta
+          name="description"
+          content="Interesting blog articles on the state of data governance and data privacy"
+        />
+
+        <meta
+          name="keywords"
+          content="data governance, data privacy, data protection"
+        />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <Header />
       <Main>
         <div className="container">
@@ -89,6 +103,10 @@ const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
+
+  @media screen and (max-width: 500px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const Post = styled.div`

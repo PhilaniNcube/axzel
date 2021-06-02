@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://axzel.co.za/about</loc>
+  </url>
+
+  <url>
+    <loc>https://axzel.co.za/contact</loc>
+  </url>
+
+  <url>
+    <loc>https://axzel.co.za</loc>
+  </url>
+
+  <url>
+    <loc>https://axzel.co.za/privacy</loc>
+  </url>
+
+  <url>
+    <loc>https://axzel.co.za/blog/index</loc>
+  </url>
+
+  <url>
+    <loc>https://axzel.co.za/blog/[link]</loc>
+  </url>
+
+  <url>
+    <loc>https://axzel.co.za/services/data</loc>
+  </url>
+
+  <url>
+    <loc>https://axzel.co.za/services/index</loc>
+  </url>
+
+  <url>
+    <loc>https://axzel.co.za/services/management</loc>
+  </url>
+
+  <url>
+    <loc>https://axzel.co.za/services/readiness</loc>
+  </url>
+</urlset>

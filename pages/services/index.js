@@ -7,10 +7,21 @@ import {
 } from 'react-icons/gi';
 import Link from 'next/link';
 import Image from 'next/image';
+import Head from 'next/head';
 
 const index = () => {
   return (
     <Fragment>
+      <Head>
+        <title>Axzel | Services</title>
+        <meta name="description" content="Data Governance made practical" />
+
+        <meta
+          name="keywords"
+          content="data governance, data privacy, data protection"
+        />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <ServicesHeader>
         <div className="container">
           <h1>Our Services</h1>

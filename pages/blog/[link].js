@@ -5,11 +5,16 @@ import styled from 'styled-components';
 import client from '../../lib/contentful';
 import Link from 'next/link';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
+import Head from 'next/head';
 
 const Post = ({ post }) => {
   console.log(post);
   return (
     <Wrapper>
+      <Head>
+        <title>Axzel - Blog | {post.fields.title}</title>
+        <meta name="description" content="Data Governance Blog" />
+      </Head>
       <div className="container">
         <h1>{post.fields.title}</h1>
         <h4>{`Published: ${post.sys.createdAt.substring(0, 10)}`}</h4>

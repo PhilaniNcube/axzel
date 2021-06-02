@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://axzel.co.za/sitemap.xml

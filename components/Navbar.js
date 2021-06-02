@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styled from 'styled-components';
 import { FaBars } from 'react-icons/fa';
+import Head from 'next/head';
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -28,6 +29,9 @@ const Navbar = () => {
         transition: '0.6s',
       }}
     >
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
       <div className="container">
         <Logo>
           <img

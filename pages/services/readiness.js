@@ -3,10 +3,21 @@ import React from 'react';
 import Link from 'next/link';
 import Button from '../../components/Button';
 import styled from 'styled-components';
+import Head from 'next/head';
 
 const readiness = () => {
   return (
     <ServicePage>
+      <Head>
+        <title>Axzel | POPI & GDPR</title>
+        <meta name="description" content="Data Governance made practical" />
+
+        <meta
+          name="keywords"
+          content="data governance, data privacy, data protection, GDPR, POPI"
+        />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <header>
         <div className="container">
           <h1>POPIA & GDPR Regulatory Readiness</h1>

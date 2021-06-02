@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -7,6 +8,16 @@ import Button from '../../components/Button';
 const management = () => {
   return (
     <ServicePage>
+      <Head>
+        <title>Axzel | Data Culture Transformation</title>
+        <meta name="description" content="Data Governance made practical" />
+
+        <meta
+          name="keywords"
+          content="data governance, data privacy, data protection"
+        />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <header>
         <div className="container">
           <h1>Data Culture Transformation</h1>

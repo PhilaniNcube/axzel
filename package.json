@@ -12,14 +12,18 @@
     "babel-plugin-styled-components": "^1.12.0",
     "contentful": "^8.2.1",
     "framer-motion": "^4.0.3",
+    "globby": "^11.0.3",
     "gsap": "^3.6.1",
     "infinite-react-carousel": "^1.2.11",
     "next": "10.0.9",
+    "prettier": "^2.3.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-gtm-module": "^2.0.11",
     "react-icons": "^4.2.0",
     "react-id-swiper": "^4.0.0",
     "sass": "^1.32.8",
+    "stream": "0.0.2",
     "styled-components": "^5.2.1",
     "swiper": "^6.5.4"
   }
